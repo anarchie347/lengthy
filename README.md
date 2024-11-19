@@ -19,6 +19,8 @@ Lengthy has MANY advantages over traditional programming languages:
 
 To write some code in Lengthy, simply put loads of 🙃 in your text editor, then run the compiler
 
+Note that the source code file must ONLY contain 🙃, no other characters. Trailing whitespaces are permitted and are ignored
+
 To run the compiler:
 `python lengthy_compiler.py <source> <destination> -o`
 
