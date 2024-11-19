@@ -4,9 +4,9 @@ SYMBOL="🙃"
 
 filepath = sys.argv[1]
 file = open(filepath, "r")
-code = file.read()
+code = file.read().rstrip()
 file.close()
-length = len(code) - 1
+length = len(code)
 print(length)
 for i in range(0, length):
     if code[i] != SYMBOL:
