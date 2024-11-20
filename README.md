@@ -30,3 +30,14 @@ To run the compiler:
 - `-o` is optional, it means the compiler will output the compiled code to the standard output before it writes it to the file
 
 If compiling for Windows, it is a good idea to give `<destination>` a `.exe` extension to make it executable
+
+
+# Usability
+
+The following would be the minimum number of emojis required to make an executable for each operating system (Based on data from ChatGPT)
+- Windows - minimum exectuable size (PE) ~93B = 744b. Emoji count ≈ 2^744 ≈ 10^244
+- Linux - minimum exectuable size (ELF) ~45B = 360b. Emoji count ≈ 2^360 ≈ 10^109
+- MS DOS - minium executable size (COM) 1B = 8b. Emoji count = 2^8 = 256
+- MacOS - minumum exectable size (Mach-O) ~4096B = 32768b. Emoji count = 2^32768 ≈ 10^9865
+
+In other words, unless you have more storage on your computer than there are atoms in the observable universe (~10^80), you can only write programs for MS DOS
