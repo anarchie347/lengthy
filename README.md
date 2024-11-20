@@ -14,6 +14,7 @@ Lengthy has MANY advantages over traditional programming languages:
 - Lengthy code runs with zero overhead costs, so is extremely efficient
 - Lengthy has a simple to understand compilation process, so you know exactly what the resulting machine code will do
 - The Lengthy compiler is extremely lightweight so has low hardware requirements
+- Easy to debug code because in a large codebase, you dont need to naviagate to the feature causing the bug, you can just add/remove emojis from the start
 
 ## Usage and documentation
 
