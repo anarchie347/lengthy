@@ -41,3 +41,14 @@ The following would be the minimum number of emojis required to make an executab
 - MacOS - minumum exectable size (Mach-O) ~4096B = 32768b. Emoji count = 2^32768 ≈ 10^9865
 
 In other words, unless you have more storage on your computer than there are atoms in the observable universe (~10^80), you can only write programs for MS DOS
+
+For more context:
+- Writing a Hellow World program in C and compiling with gcc and no extra options gave me a ~15kB file, i.e. ~10^37000 emojis
+- [The smallest ELF Hello World program I could find](http://timelessname.com/elfbin/) is 142B, so 2^1136 ≈ 10^342 emojis
+- [This website](https://www.gnostice.com/nl_article.asp?id=225&t=The_Smallest_Hello_World_Program%E2%80%A6_At_20_Bytes) gives a 20B Hello World program usign a DOS command in Windows XP. Apparently the command was removed in Windows 7. 20B = 160b, i.e. 2^160 emojis ≈ 10^49
+
+ALthough this last one is signiicantly smaller, 10^49 is still an enormous amount of emojis. Assuming each emoji takes 2B of storage, this would mean the source code would be 2 * 10^49 B ≈ 20,000PPPB (Peta-Peta-Peta bytes)
+
+It may be a while until the average home user has that amount of storage
+
+Lengthy is therefore a programming language well ahead of its time
