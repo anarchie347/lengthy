@@ -32,7 +32,7 @@ To run the compiler:
 If compiling for Windows, it is a good idea to give `<destination>` a `.exe` extension to make it executable
 
 
-# Usability
+# Practicalities
 
 The following would be the minimum number of emojis required to make an executable for each operating system (Based on data from ChatGPT)
 - Windows - minimum exectuable size (PE) ~93B = 744b. Emoji count ≈ 2^744 ≈ 10^244
