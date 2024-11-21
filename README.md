@@ -52,3 +52,5 @@ ALthough this last one is signiicantly smaller, 10^49 is still an enormous amoun
 It may be a while until the average home user has that amount of storage
 
 Lengthy is therefore a programming language well ahead of its time
+
+Working the other way, assuming you have 4TiB of space for your source code file. Assuming each emoji takes 2B, this gives you up to 2Ti = 2^41 emojis. Hence the largest number you can represent is 2^41. This does not give you 41 bits because 41 bits would give a max value of 2^42 - 1, so you essentially have 40 bits maximum. Hence with up to 4TiB of space, you can write any program that has a executable that is 40b = 5B in size. If you could use a custom caracter encoding that only used 1 bit (so encoded just the emoji), then this 16x saving in file size space per emoji would give you $\log_2(16)=4$ more bits in executable size.
